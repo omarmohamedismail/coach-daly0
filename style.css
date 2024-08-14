@@ -105,7 +105,7 @@ section {
 #home {
   display: flex;
   background: #000;
-  background-image: url("file:///C:/Users/Google/OneDrive/Desktop/capten%20daly%20gym/img%20daly%202/Screenshot%20from%202024-08-08%2018-19-52.png");
+  background-image: url("https://raw.githubusercontent.com/omarmohamedismail/coach-daly/main/img%20daly%202/Screenshot%20from%202024-08-08%2018-19-52.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
