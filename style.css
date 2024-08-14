@@ -1,0 +1,272 @@
+
+/* styles.css */
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "poppins";
+}
+
+.btn {
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: #fff;
+  background: tomato;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+
+/*------------------------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #ec370a;
+  padding-right: 10px;
+}
+.header .logo:hover {
+  transform: scale(1.1);
+}
+
+.logo i {
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.header .navbar a {
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+
+.header .navbar a:hover {
+  color: #baa6cf;
+}
+
+.header .btn {
+  background: transparent;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.signbtn {
+  margin-top: 2rem;
+  width: 150px;
+  padding: 12px;
+  color: #fff;
+  background: tomato;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signbtn:hover {
+  background: rgba(212, 48, 48, 0.76);
+  transition: 0.4s;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+section {
+  padding: 50px 0 50px 0;
+}
+
+#home {
+  display: flex;
+  background: #000;
+  background-image: url("file:///C:/Users/Google/OneDrive/Desktop/capten%20daly%20gym/img%20daly%202/Screenshot%20from%202024-08-08%2018-19-52.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#home .max-width {
+  width: 100%;
+  display: flex;
+}
+
+#home .home-content {
+  width: 50%;
+  padding: 2rem;
+}
+
+#home h3 {
+  color: #fff;
+  margin-top: 6rem;
+  font-size: 3rem;
+  font-family: "philosopher", sans-serif;
+}
+
+#home p {
+  color: rgb(194, 191, 191);
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+#home .home-image {
+  width: 50%;
+}
+
+#home .home-content img {
+  width: 100%;
+}
+
+.btn-7 {
+  color: #ec370a;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 15px;
+  border-radius: 2px solid rgb(226, 205, 11);
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.btn-7:hover {
+  color: green;
+  font-weight: bold;
+  background-color: #000;
+  border-style: double;
+}
+
+/*-------------------------------------------------------*/
+/* services */
+/*section {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }*/
+
+h2 {
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+}
+
+p {
+  color: #555;
+}
+
+#services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service {
+  width: 80%;
+  margin: 40px;
+  padding: 80px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.service img{
+  width: 40%;
+}
+
+
+    
+
+
+/*----------------------- contact --------------------*/
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+/*----------------- pricing -------------------------------*/
+#pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan {
+  width: 10%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.plan h3 {
+  color: #333;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.features {
+  margin-top: 20px;
+  color: #555;
+}
+/* ---------------------------------------------------- */
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  width: 100%;
+}
+
